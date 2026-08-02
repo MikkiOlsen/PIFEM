@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below"
+title: PIFEM
+abstract: "A Python finite element code for Mindlin plates on an elastic foundation, covering jointed slab grids with load transfer across joints and moving multi-axle vehicle loads."
+type: software
+authors:
+  - given-names: Mikki Andrup
+    family-names: Olsen
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/MikkiOlsen/PIFEM"
+keywords:
+  - finite element method
+  - Mindlin plate
+  - elastic foundation
+  - Winkler foundation
+  - concrete pavement
+  - load transfer efficiency
+preferred-citation:
+  type: thesis
+  title: "Numerical and Experimental Investigation of Load Transfer Between Slabs Using Laser Vibrometry"
+  authors:
+    - given-names: Mikki Andrup
+      family-names: Olsen
+  thesis-type: "Master's thesis"
+  institution:
+    name: Technical University of Denmark
+  year: 2026

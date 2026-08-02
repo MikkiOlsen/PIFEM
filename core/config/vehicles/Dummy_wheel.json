@@ -1,0 +1,14 @@
+{
+    "name": "Dummy_wheel",
+    "total_mass_kg": 4500,
+    "num_wheels": 1,
+    "axles": [
+        {
+            "name": "Front",
+            "x_offset": 0.0,
+            "y_offsets": [-1.0575],
+            "mass_kg": 4500,
+            "tire_pressure_pa": 0.83e6
+        }
+    ]
+}

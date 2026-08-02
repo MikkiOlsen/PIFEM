@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PIFEM"
+version = "0.1.0"
+description = "Finite element analysis of Mindlin plates on an elastic foundation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "numba",
+    "pyamg",
+    "gmsh",
+    "meshio",
+]
+
+[project.optional-dependencies]
+solvers = [
+    "pypardiso",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["core*", "elements*", "mesh*"]
+
+[tool.setuptools.package-data]
+"core" = ["config/*.json", "config/vehicles/*.json"]

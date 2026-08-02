@@ -1,0 +1,27 @@
+{
+    "pavement_concrete": {
+        "E": 30e9,
+        "nu": 0.2,
+        "description": "Standard strength concrete"
+    },
+    "steel": {
+        "E": 200e9,
+        "nu": 0.30,
+        "description": "Standard structural steel"
+    },
+    "cph_rafa": {
+        "E": 37330e6,
+        "nu": 0.2,
+        "description": "CPH Airport - Rapid cement and fly ash mix"
+    },
+    "cph_fut": {
+        "E": 38300e6,
+        "nu": 0.2,
+        "description": "CPH Airport - Calcined clay mix"
+    },
+    "cph_ref": {
+        "E": 37670e6,
+        "nu": 0.2,
+        "description": "CPH Airport - Reference mix"
+    }
+}
