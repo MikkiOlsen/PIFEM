@@ -1,0 +1,35 @@
+{
+    "name": "truck_volvo_fh16",
+    "total_mass_kg": 40600,
+    "num_wheels": 12,
+    "axles": [
+        {
+            "name": "Front 1",
+            "x_offset": 0.0,
+            "y_offsets": [-1.0575, 1.0575],
+            "mass_kg": 9000,
+            "tire_pressure_pa": 0.83e6
+        },
+        {
+            "name": "Front 2",
+            "x_offset": 1.995,
+            "y_offsets": [-1.0575, 1.0575],
+            "mass_kg": 9200,
+            "tire_pressure_pa": 0.83e6
+        },
+        {
+            "name": "Rear 1",
+            "x_offset": 5.1,
+            "y_offsets": [-1.0925, -0.7275,  0.7275,  1.0925],
+            "mass_kg": 10900,
+            "tire_pressure_pa": 0.90e6
+        },
+        {
+            "name": "Rear 2",
+            "x_offset": 6.47,
+            "y_offsets": [-1.0925, -0.7275,  0.7275,  1.0925],
+            "mass_kg": 11500,
+            "tire_pressure_pa": 0.90e6
+        }
+    ]
+}

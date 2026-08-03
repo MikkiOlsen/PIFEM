@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+*.geo
+
+*.egg-info/
+build/
+dist/
+
+.venv/
+venv/
